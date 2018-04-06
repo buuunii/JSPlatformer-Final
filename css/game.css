@@ -1,0 +1,31 @@
+.background     {background: url("https://78.media.tumblr.com/1a33788fbde1bb1c3589bc8525d8e994/tumblr_inline_p6qmvpvotm1qezikq_540.png");
+                 background-size:contain;
+                 background-position: center;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: url("https://78.media.tumblr.com/1e9214f8fbcab1740e71e3246f3a3ede/tumblr_inline_p6qqjxquZT1qezikq_540.png"); }
+.wall          { background: url("https://78.media.tumblr.com/68791a57656d912398b080aac8c928ff/tumblr_inline_p6qq99pMs21qezikq_540.png");   }
+.floater       { background: url("https://78.media.tumblr.com/ef28e0381f815cf22f8a8dfd2e32bbb0/tumblr_inline_p6qngwvpwh1qezikq_540.png"); }
+.portal        { background: url("https://78.media.tumblr.com/2e0909fb3e4617a88aa52462d8477e53/tumblr_inline_p6qp96eOYE1qezikq_540.png"); }
+.lala          { background: url("https://78.media.tumblr.com/a6df650c7c9f28fad9e3769ceb937abf/tumblr_inline_p6qoilhiei1qezikq_540.png")}
+.slow         { background: url("https://78.media.tumblr.com/9bb17c086ba40a98a7d7762d073da535/tumblr_inline_p6qroaLz251qezikq_540.png")}
+
+.actor  { position: absolute;  }
+.player { background: url("https://78.media.tumblr.com/d75817308ddf909baaa1594142e70f93/tumblr_inline_p6qoihIoBM1qezikq_540.png"); }
+.coin { background: url("https://78.media.tumblr.com/6b34b7d547912cbe31c8e40b178eb236/tumblr_inline_p6qoo0kY0a1qezikq_540.png"); }
+.life { background: url("https://78.media.tumblr.com/1fca8421cd9da0cc94a07325e66d3b8a/tumblr_inline_p6qnwqQ87D1qezikq_540.png"); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: url("https://78.media.tumblr.com/9c9984bf165b9a32b51e81f8526cc6bf/tumblr_inline_p6qqolmR6B1qezikq_540.png");
+}
+.won .player {
+  background: url("https://78.media.tumblr.com/524aa664aed07b9752847f7ca61c406b/tumblr_inline_p6qp3dMZqT1qezikq_540.png");
+}
